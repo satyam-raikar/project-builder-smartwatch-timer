@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch - Timer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="strap">
+        <div class="container">
+            <div class="head">
+                <div class="time">
+                    <p id="main-clock" class="main-clock">
+                        Stopwatch
+                    </p>
+                </div>
+            </div>
+            <div class="content">
+
+                <div class="stopwatch">
+                    <div class="timer">
+                        <span class="hr" id="hr"> 00 </span>
+                        <p>:</p>
+                        <span class="min" id="min"> 00 </span>
+                        <p>:</p>
+                        <span class="sec" id="sec"> 00 </span>
+                        <p>:</p>
+                        <span class="mili" id="mili"> 00 </span>
+                    </div>
+                    <div class="lap-counter" id="lap-counter">
+
+                    </div>
+
+                    <div class="buttons-1" id="button-1">
+                        <div class="timer-start" id="timer-start">
+                            <!--      show only this button at start -->
+                            <i class="fas fa-play"></i>
+                            <p>START</p>
+                        </div>
+
+                    </div>
+                    <div class="buttons-2" id="button-2">
+                        <div class="buttons-2-container" id="buttons-2-container">
+                            <div class="timer-reset" id="timer-reset">
+                                <i class="fas fa-redo"></i>
+                                <p>RESET</p>
+                            </div>
+                            <div class="timer-lap" id="timer-lap">
+                                <i class="fas fa-flag"></i>
+                                <p>LAP</p>
+                            </div>
+                            <div class="timer-pause" id="timer-pause">
+                                <i class="fas fa-pause" id="fa-pause"></i>
+                                <p class="pause" ></p>PAUSE</p>
+                            </div>
+                            <div class="timer-continue" id="timer-continue"  >
+                                <i class="fas fa-step-forward" id="fa-continue"></i>
+                                <p class="continue" ></p>CONTINUE</p>
+                            </div>
+                            <div class="timer-stop" id="timer-stop">
+                                <i class="fas fa-stop"></i>
+                                <p class="stop">STOP</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+            <div class="foot">
+                <div class="menu-left">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="menu-centre">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="menu-right">
+                    <i class="far fa-clock"></i>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
